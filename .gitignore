@@ -219,3 +219,4 @@ ssget/files/ssstats_old.csv
 !.gitignore
 
 *.asv
+lic/
