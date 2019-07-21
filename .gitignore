@@ -219,5 +219,6 @@ ssget/files/ssstats_old.csv
 !.gitignore
 
 *.asv
-lic/
-bundle.zip
+private/lic/
+private/bundle.zip
+out/

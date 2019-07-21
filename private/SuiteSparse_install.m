@@ -34,7 +34,7 @@ function SuiteSparse_install (do_demo)
 %-------------------------------------------------------------------------------
 
 paths = { } ;
-SuiteSparse = pwd ;
+SuiteSparse = fileparts( mfilename( 'fullpath' ) );
 
 % determine the MATLAB version (6.1, 6.5, 7.0, ...)
 v = version ;
